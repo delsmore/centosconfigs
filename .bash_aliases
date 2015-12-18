@@ -1,4 +1,4 @@
-alias aelog='tail -f /var/log/httpd/error_log.`date +"%Y-%m-%d"`'
+alias aelog='tail -f /var/log/httpd/error_log'
 alias alog='cd /var/log/httpd/; ls -rt | grep access | tail -1 | xargs tail -f'
 alias h='history'
 alias ll='ls -l'
